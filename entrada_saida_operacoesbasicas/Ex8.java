@@ -9,6 +9,13 @@ public class Ex8{
             batata[i] = scanner.nextInt();
           }
 
-          if()
+          int mais = batata[0];
+          int nmaismais = 0;
+          int menos = batata[0];
+          int nmenosmenos = 0;
+
+          for(int i=0; i<8; i++){
+            if()
+          }
     }
 }
