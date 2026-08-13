@@ -15,7 +15,18 @@ public class Ex8{
           int nmenosmenos = 0;
 
           for(int i=0; i<8; i++){
-            if()
+            if(batata[i] > mais){
+              mais = batata[i];
+              nmaismais = i;
+            }
+            if(batata[i] < menos){
+              menos = batata[i];
+              nmenosmenos = i;
+            }
           }
+
+          System.out.println("O maior numero é " + mais + " e está na posição " + nmaismais);
+          System.out.println("O menor numero é " + menos + " e está na posição " + nmenosmenos);
+
     }
 }
